@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.weather-app {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+}
+
+.default-location {
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.default-temperature-icon {
+  font-size: 70px;
+  position: relative;
+  right: -190px;
+  bottom: -20px;
+}
+
+.default-data {
+  position: relative;
+  right: -60px;
+}
+.default-temperature {
+  font-size: 60px;
+}
+.default-temperature-unit {
+  position: relative;
+  top: -30px;
+  font-size: 20px;
+}
+.temperature-unit {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+.footer {
+  text-align: center;
+  font-family: monospace;
+  font-size: 13px;
+}
+.coder-name {
+  color: #5e6769;
+}
+.code-source {
+  text-decoration: none;
+}
