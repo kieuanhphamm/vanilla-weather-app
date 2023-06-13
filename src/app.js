@@ -44,7 +44,6 @@ function formatDate(now) {
 let current = new Date();
 
 function displayTemperature(response) {
-  console.log(response.data);
   let temperatureElement = document.querySelector("#temperature");
   let cityElement = document.querySelector("#city");
   let weatherDescriptionElement = document.querySelector(
@@ -75,7 +74,6 @@ function search(city) {
 
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
-  console.log(apiUrl);
   axios.get(apiUrl).then(displayTemperature);
 }
 
