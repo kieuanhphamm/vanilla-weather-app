@@ -33,7 +33,7 @@ h1 {
 .default-temperature {
   font-size: 60px;
 }
-.default-temperature-unit {
+.current-temperature-unit {
   position: relative;
   top: -30px;
   font-size: 20px;
@@ -48,6 +48,9 @@ ul {
 }
 li {
   list-style: none;
+}
+.weather-status {
+  text-transform: capitalize;
 }
 
 .footer {

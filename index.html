@@ -15,6 +15,7 @@
       src="https://kit.fontawesome.com/7b35b9af0a.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
@@ -23,10 +24,10 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card-body default-location">
-              <h1>Sydney</h1>
+              <h1 id="city">Sydney</h1>
               <ul>
                 <li>Tuesday, June 13 | 16:00</li>
-                <li>Cloudy</li>
+                <li class="weather-status" id="weather-description">Cloudy</li>
               </ul>
             </div>
           </div>
@@ -40,8 +41,8 @@
           <div class="col">
             <div class="card-body default-data">
               <p>
-                <span class="default-temperature">17</span
-                ><span class="default-temperature-unit">
+                <span class="default-temperature" id="temperature">17</span
+                ><span class="current-temperature-unit">
                   <a href="#" class="temperature-unit">°C </a> |<a
                     href="#"
                     class="temperature-unit"
@@ -51,8 +52,8 @@
                 >
               </p>
               <ul>
-                <li>Humidity: 50%</li>
-                <li>Wind: 2km/h</li>
+                <li>Humidity: <span id="humidity"> 50</span>%</li>
+                <li>Wind: <span id="wind-speed"> 2</span>km/h</li>
               </ul>
             </div>
           </div>
