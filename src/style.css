@@ -1,14 +1,15 @@
 .weather-app {
   max-width: 700px;
   margin: 0 auto;
-  margin-top: 50px;
-  padding: 30px;
-  border: 1px solid #025962;
+  margin-top: 80px;
+  padding: 50px;
+  border: 1px solid #5e6769;
   border-radius: 10px;
+  background: rgba(248, 246, 246, 0.4);
 }
 
 body {
-  background-image: url("images/sky-background.jpg");
+  background-image: url("images/pink-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -83,7 +84,7 @@ li {
   font-size: 13px;
 }
 .coder-name {
-  color: #025962;
+  color: #5e6769;
 }
 .code-source {
   text-decoration: none;
