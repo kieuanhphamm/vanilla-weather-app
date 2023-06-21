@@ -3,9 +3,9 @@
   margin: 0 auto;
   margin-top: 80px;
   padding: 50px;
-  border: 1px solid #5e6769;
+  border: 1px solid transparent;
   border-radius: 10px;
-  background: rgba(248, 246, 246, 0.4);
+  background: #fff;
 }
 
 body {
@@ -18,8 +18,30 @@ body {
   text-align: center;
 }
 
+.search-form {
+  background-color: #fce2e1;
+  border: transparent;
+}
+
+.button {
+  background-color: #fec9cb;
+  border: transparent;
+  color: #fff;
+}
+.button:hover {
+  background-color: #fabdbf;
+  border: transparent;
+  color: #e3e3e3;
+  transform: scale(1.1);
+  transition: all 200ms ease-in-out;
+}
+
 h1 {
   font-size: 60px;
+}
+
+li {
+  opacity: 0.6;
 }
 
 .default-temperature-icon {
@@ -27,6 +49,8 @@ h1 {
   position: relative;
   right: -190px;
   bottom: -20px;
+  height: 70px;
+  width: 70px;
 }
 
 .default-data {
